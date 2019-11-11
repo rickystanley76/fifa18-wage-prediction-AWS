@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>ML Model: to Predict the wage of football players</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1>Predict Wage for FIFA players</h1>
+    <br>To predict the players wage we  have collected the data from Kaggle. And we have applied Random Forest regression with hyperparameter tuning.</br>	
+    <br> </br>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+        <input type="text" name="overall" placeholder="Overall e.g., 85" required="required" />
+		<input type="text" name="potential" placeholder="Potential e.g., 90" required="required" />
+		<input type="text" name="value" placeholder="Value e.g., 97000000" required="required" />
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+    <br> </br>
+    <br>Model created with Scikit learn and deployed in AWS by Ricky D Cruze</br>
+   
+ </div>
+
+
+</body>
+</html>
