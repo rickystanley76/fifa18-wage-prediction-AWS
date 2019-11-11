@@ -7,3 +7,8 @@ FIFA 18 Complete Player Dataset from Kaggle.com  </br>
 I have used random forest with hyperparameter tuning to have the best model. I have tested with many difffernt tools and algforothms. 
 Best one i have found is Scikit learn and Flask to deploy that in AWS EC2.
 
+# Model Deployment
+Model is deployed unsing Flask and AWS EC2 as an web interface.
+
+# URL: 
+http://ec2-54-93-84-142.eu-central-1.compute.amazonaws.com:8080/
