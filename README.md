@@ -12,4 +12,4 @@ Best one i have found is Scikit learn and Flask to deploy that in AWS EC2.
 Model is deployed unsing Flask and AWS EC2 as an web interface.
 
 # URL: 
-http://ec2-54-93-84-142.eu-central-1.compute.amazonaws.com:8080/
+http://13.48.99.18:8080/
