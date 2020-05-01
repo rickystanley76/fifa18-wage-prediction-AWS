@@ -20,6 +20,16 @@ Model is deployed unsing Flask and AWS EC2 as an web interface.
   b. sudo apt-get install python3-pip 
   c. pip3 install -r requirements.txt
 5. To run the app: python3 app.py
-6. the URL: http://yourIP:8080
+OR
+To run the application when you close the terminal, use Screen.
+4. screen
+5. python3 app.py
+Now you can close the terminal and it will be still running in the background.
+
+To Stop your application, connect again with the putty and run the command.
+6. screen -r
+you will see your application running. you can turn off by ctrl+c
+
+7. the URL: http://yourIP:8080
 
 
