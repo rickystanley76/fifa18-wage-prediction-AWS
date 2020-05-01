@@ -1,0 +1,20 @@
+Installation:
+Install in Ubuntu EC2 in AWS. 
+Request Spot instance- They are cheap, good for demo and Test purpose.
+
+Login in using putty:
+Then run the following commands.
+
+1. sudo apt-get update && sudo apt-get upgrade
+
+2. sudo apt-get install python3-pip //to install pip3
+
+2. pip3 install -r requirements.txt
+
+3. IN the security group of the EC2 give the all traffic access from anywhere in the inbound rules.
+
+
+To run the application use the following command.
+4. python3 app.py
+
+browse: http://3.125.10.221:8080/
