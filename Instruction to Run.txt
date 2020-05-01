@@ -17,4 +17,15 @@ Then run the following commands.
 To run the application use the following command.
 4. python3 app.py
 
-browse: http://3.125.10.221:8080/
+OR
+To run the application when you close the terminal, use Screen.
+4. screen
+5. python3 app.py
+Now you can close the terminal and it will be still running in the background.
+
+To Stop your application, connect again with the putty and run the command.
+6. screen -r
+you will see your application running. you can turn off by ctrl+c
+
+
+browse: http://yourIP:8080/
