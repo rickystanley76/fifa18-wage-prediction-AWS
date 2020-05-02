@@ -16,9 +16,13 @@ Model is deployed unsing Flask and AWS EC2 as an web interface.
 2. Upload the files and folders to the home folder /home/ubuntu (I have used winSCP to upload)
 3. Use Putty to connect to the EC2 intance.
 4. Run the following command:
+
   a. sudo apt-get update && sudo apt-get upgrade
+
   b. sudo apt-get install python3-pip 
+  
   c. pip3 install -r requirements.txt
+  
 5. To run the app: python3 app.py
 
 OR
