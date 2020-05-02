@@ -34,7 +34,9 @@ To run the application when you close the terminal, use Screen.
 Now you can close the terminal and it will be still running in the background.
 
 To Stop your application, connect again with the putty and run the command.
+
 6. screen -r
+
 you will see your application running. you can turn off by ctrl+c
 
 7. the URL: http://yourIP:8080
